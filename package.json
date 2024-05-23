@@ -1,0 +1,19 @@
+{
+  "name": "2110366-project-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tonklaw/2110366-project-logger.git"
+  },
+  "author": "Tonkla W.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tonklaw/2110366-project-logger/issues"
+  },
+  "homepage": "https://github.com/tonklaw/2110366-project-logger#readme"
+}
