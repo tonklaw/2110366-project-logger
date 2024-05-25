@@ -5,8 +5,12 @@ const dataSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
-  data: {
-    type: Object,
+  aqi: {
+    type: Number,
+    required: true,
+  },
+  dust: {
+    type: Number,
     required: true,
   },
 });
