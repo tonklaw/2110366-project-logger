@@ -56,7 +56,7 @@ const broadcastWSS = (wss, e) => {
       data.clientID = client.id;
 
       if (client.rate) {
-        console.log(`Sending data to ${client.id} with rate ${client.rate}`);
+        // console.log(`Sending data to ${client.id} with rate ${client.rate}`);
         const payload = await getPayload(client.rate);
 
         data.payload = payload;
